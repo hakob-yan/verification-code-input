@@ -22,3 +22,33 @@ code {
     monospace;
 }
 
+.regular {
+  border: 0.0625rem solid #010a180a;
+  transition: all 100ms ease-in;
+  outline: transparent;
+}
+
+.focus\:focused:focus {
+  border: 0.0625rem solid transparent;
+  outline-width: 0.1875rem;
+  outline-offset: -0.0625rem;
+  outline-style: solid;
+  outline-color: #9dc3fb;
+}
+
+.error {
+  border: 0.0625rem solid #e31717;
+  outline: transparent;
+}
+
+.default-bg {
+
+  
+  background: hsla(298, 68%, 90%, 1);
+
+  background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+
+}
